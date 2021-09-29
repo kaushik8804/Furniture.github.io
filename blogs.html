@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="footer, address, phone, icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+      width: 60%;
+      margin: 45px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      margin-top: 100px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    .name_new {
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .row {
+      display: flex;
+      margin-top: 100px;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .name2{
+      font-size: 35px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+  <title>BijaliGaadi</title>
+</head>
+
+<body>
+  <nav class="nav nav_top">
+    <div class="logo">
+      <img
+        src="data:image/png;base64,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 "
+        width="150">
+    </div>
+    <div class="nav_side">
+      <a href="index.html"> Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="#products">products</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contacts.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <div class="row">
+    <section class="regular slider">
+      <div>
+        <img src="http://placehold.it/350x300?text=1">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=2">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=3">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=4">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=5">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=6">
+      </div>
+    </section>
+  </div>
+  <div class="name_new">
+    <h2> Our Customers</h2>
+  </div>
+  <div class="product_btn">
+    <a href="images.html">Click Here For More Details.</a>
+</div>
+  <hr>
+  <div class="name2">
+    <h2> Blogs and Reviews.</h2>
+  </div>
+  <div class="team">
+    <h2> Blogs</h2>
+    <div class="team_container">
+        <div class="team_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZufwRWWzNZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="team_content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem. Ullam ipsam commodi iure blanditiis perspiciatis praesentium velit. Veniam explicabo eaque quis mollitia assumenda itaque enim tempore in hic distinctio.lore
+                When one thinks of an electric scooter, one worries about affordability, range and battery life. With EPluto 7G, one can glide through the distance with a companion, emission-free & anxiety free. Made for India, at IIT hyderabad, EPluto 7G - The Serene Ride.
+                Born out of innovation at IIT Hyderabad, PURE is committed to drive the future of e-mobility and energy storage systems. We design and manufacture EVs and Lithium batteries
+            </p>
+        </div>
+    </div>
+    <div class="team_container">
+        <div class="team_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VZYevIaK_rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="team_content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem. Ullam ipsam commodi iure blanditiis perspiciatis praesentium velit. Veniam explicabo eaque quis mollitia assumenda itaque enim tempore in hic distinctio.lore
+                When one thinks of an electric scooter, one worries about affordability, range and battery life. With EPluto 7G, one can glide through the distance with a companion, emission-free & anxiety free. Made for India, at IIT hyderabad, EPluto 7G - The Serene Ride.
+                Born out of innovation at IIT Hyderabad, PURE is committed to drive the future of e-mobility and energy storage systems. We design and manufacture EVs and Lithium batteries
+            </p>
+        </div>
+    </div>
+    <div class="team_container">
+        <div class="team_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fWs6KeZYmAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="team_content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, exercitationem. Ullam ipsam commodi iure blanditiis perspiciatis praesentium velit. Veniam explicabo eaque quis mollitia assumenda itaque enim tempore in hic distinctio.lore
+                When one thinks of an electric scooter, one worries about affordability, range and battery life. With EPluto 7G, one can glide through the distance with a companion, emission-free & anxiety free. Made for India, at IIT hyderabad, EPluto 7G - The Serene Ride.
+                Born out of innovation at IIT Hyderabad, PURE is committed to drive the future of e-mobility and energy storage systems. We design and manufacture EVs and Lithium batteries
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function () {
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplayspeed: 10000,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+  });
+</script>
+</body>
+
+</html>
